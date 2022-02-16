@@ -1,0 +1,7 @@
+﻿  Evaluation of expression.cpp
+C:\MINE\Programming\DSA\Evaluation of expression\Evaluation of expression\Evaluation of expression.cpp(14,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\Evaluation of expression\Evaluation of expression\Evaluation of expression.cpp(114,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\Evaluation of expression\Evaluation of expression\Evaluation of expression.cpp(121,38): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\MINE\Programming\DSA\Evaluation of expression\Evaluation of expression\Evaluation of expression.cpp(149,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\MINE\Programming\DSA\Evaluation of expression\Evaluation of expression\Evaluation of expression.cpp(158,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Evaluation of expression.vcxproj -> C:\MINE\Programming\DSA\Evaluation of expression\x64\Debug\Evaluation of expression.exe

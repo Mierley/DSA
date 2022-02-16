@@ -1,0 +1,4 @@
+﻿  Shunting-yard algorithm.cpp
+C:\MINE\Programming\DSA\Shunting-yard algorithm\Shunting-yard algorithm\Shunting-yard algorithm.cpp(13,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\Shunting-yard algorithm\Shunting-yard algorithm\Shunting-yard algorithm.cpp(108,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Shunting-yard algorithm.vcxproj -> C:\MINE\Programming\DSA\Shunting-yard algorithm\x64\Debug\Shunting-yard algorithm.exe

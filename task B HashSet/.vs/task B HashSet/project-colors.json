@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db19c384-f632-42b4-977e-f1e48a192168": {
+      "ProjectGuid": "db19c384-f632-42b4-977e-f1e48a192168",
+      "DisplayName": "task B HashSet",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,12 @@
+﻿  task B HashSet.cpp
+C:\MINE\Programming\DSA\task B HashSet\task B HashSet\task B HashSet.cpp(130,20): error C2676: бинарный "==": "T" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\task B HashSet\task B HashSet\task B HashSet.cpp(127): message : во время компиляции функции-члена класс шаблон "bool HashSet<std::string>::contains(T,int &)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\task B HashSet\task B HashSet\task B HashSet.cpp(172): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashSet<std::string>"
