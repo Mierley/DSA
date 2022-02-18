@@ -1,0 +1,3 @@
+﻿  HAshMap.cpp
+C:\MINE\Programming\DSA\HAshMap\HAshMap\HAshMap.cpp(127,1): error C2109: для индекса требуется массив или указатель
+C:\MINE\Programming\DSA\HAshMap\HAshMap\HAshMap.cpp(127): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "LinkedHashMap<string,CAPACITY>"

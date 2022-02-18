@@ -1,0 +1,29 @@
+﻿  CircularBoundedQueue.cpp
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(369,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(368): message : во время компиляции функции-члена класс шаблон "int HashSet<std::string>::size(void)"
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(490): message : выполняется компиляция ссылки на экземпляр шаблон функции "int HashSet<std::string>::size(void)"
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(459): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashSet<std::string>"
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(251,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(247): message : во время компиляции функции-члена класс шаблон "int HashSet<std::string>::hashCode2(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(411): message : выполняется компиляция ссылки на экземпляр шаблон функции "int HashSet<std::string>::hashCode2(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(253,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(242,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(238): message : во время компиляции функции-члена класс шаблон "int HashSet<std::string>::hashCode1(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\CircularBoundedQueue\CircularBoundedQueue\CircularBoundedQueue.cpp(410): message : выполняется компиляция ссылки на экземпляр шаблон функции "int HashSet<std::string>::hashCode1(T)"
+          with
+          [
+              T=std::string
+          ]
+  CircularBoundedQueue.vcxproj -> C:\MINE\Programming\DSA\CircularBoundedQueue\x64\Debug\CircularBoundedQueue.exe
