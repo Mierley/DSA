@@ -33,13 +33,9 @@ private:
 		return abs(hashcode) % CAPACITY;
 	}
 
-	int hashCode2(T key) {
+	int hashCode2(T key, int hash1) {
 
-		auto hashfunc = hash<T>();
-
-		int hashcode = hashfunc(key);
-
-		return PRIMENUMBER - (abs(hashcode) % PRIMENUMBER);
+		return PRIMENUMBER - (abs(hash1) % PRIMENUMBER);
 	}
 
 public:
@@ -57,14 +53,27 @@ public:
 
 	void add(T item)
 	{
-		add(item, false);
+		if (!contains(item))
+		{
+			int i = 0, h1, h2;
+			h1 = hashCode1(item);
+			h2 = hashCode2(item, h1);
+			while (array[(h1 + i * h2) % CAPACITY] != nullptr && i < CAPACITY)
+				i++;
+
+			int index = (h1 + i * h2) % CAPACITY;
+			array[index] = new T;
+			array[index][0] = item;
+			sizeS++;
+		}
+		//add(item, false);
 		// overload add(T, bool) is used, because I call method in main only if my item is not  exist, so is_contain is always false 
 	}
 
 	/**
 	 * \remove element in array[index] if it exists
 	}
-	 * \param element 
+	 * \param element
 	 */
 	virtual void remove(T item)
 	{
@@ -75,13 +84,13 @@ public:
 			sizeS--;
 		}
 	}
-		
-	
+
+
 	virtual bool contains(T item)
 	{
 		int i = 0, h1, h2;
 		h1 = hashCode1(item);
-		h2 = hashCode2(item);
+		h2 = hashCode2(item, h1);
 		while (i < CAPACITY)
 		{
 			int index = (h1 + i * h2) % CAPACITY;
@@ -131,7 +140,7 @@ private:
 		{
 			int i = 0, h1, h2;
 			h1 = hashCode1(item);
-			h2 = hashCode2(item);
+			h2 = hashCode2(item, h1);
 			while (array[(h1 + i * h2) % CAPACITY] != nullptr && i < CAPACITY)
 				i++;
 
@@ -146,7 +155,7 @@ private:
 	{
 		int i = 0, h1, h2;
 		h1 = hashCode1(item);
-		h2 = hashCode2(item);
+		h2 = hashCode2(item, h1);
 		while (i < CAPACITY)
 		{
 			int index = (h1 + i * h2) % CAPACITY;
@@ -166,7 +175,7 @@ private:
 
 /**
  * \brief print error message
- * \param command - command line that can not be execute 
+ * \param command - command line that can not be execute
  * \param name - name of file or directory
  */
 void printErrorMessage(const string& command, const string& name)
