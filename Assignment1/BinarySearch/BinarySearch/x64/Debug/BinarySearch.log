@@ -1,0 +1,3 @@
+﻿  BinarySearch.cpp
+C:\MINE\Programming\DSA\Assigment1\BinarySearch\BinarySearch\BinarySearch.cpp(71,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  BinarySearch.vcxproj -> C:\MINE\Programming\DSA\Assigment1\BinarySearch\x64\Debug\BinarySearch.exe

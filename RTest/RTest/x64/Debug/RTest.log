@@ -1,0 +1,53 @@
+﻿  RTest.cpp
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(209,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(208): message : во время компиляции функции-члена класс шаблон "int BoundedStack<DoubleHashSet<std::string>>::capacity(void)"
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(427): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BoundedStack<DoubleHashSet<std::string>>"
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(313,13): warning C4101: hash_code: неиспользованная локальная переменная
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(310): message : во время компиляции функции-члена класс шаблон "void DoubleHashSet<std::string>::remove(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(459): message : выполняется компиляция ссылки на экземпляр шаблон функции "void DoubleHashSet<std::string>::remove(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(426): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DoubleHashSet<std::string>"
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(296,13): warning C4101: hash_code: неиспользованная локальная переменная
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(290): message : во время компиляции функции-члена класс шаблон "void DoubleHashSet<std::string>::add(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(449): message : выполняется компиляция ссылки на экземпляр шаблон функции "void DoubleHashSet<std::string>::add(T)"
+          with
+          [
+              T=std::string
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(118,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(117): message : во время компиляции функции-члена класс шаблон "int CircularBoundedQueue<T>::capacity(void)"
+          with
+          [
+              T=DoubleHashSet<std::string>
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(205): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "CircularBoundedQueue<T>"
+          with
+          [
+              T=DoubleHashSet<std::string>
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(204): message : во время компиляции функции-члена класс шаблон "int BoundedStack<DoubleHashSet<std::string>>::size(void)"
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(471): message : выполняется компиляция ссылки на экземпляр шаблон функции "int BoundedStack<DoubleHashSet<std::string>>::size(void)"
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(111,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(107): message : во время компиляции функции-члена класс шаблон "int CircularBoundedQueue<T>::size(void)"
+          with
+          [
+              T=DoubleHashSet<std::string>
+          ]
+C:\MINE\Programming\DSA\RTest\RTest\RTest.cpp(205): message : выполняется компиляция ссылки на экземпляр шаблон функции "int CircularBoundedQueue<T>::size(void)"
+          with
+          [
+              T=DoubleHashSet<std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1087,5): error MSB6006: "link.exe" завершилась с кодом 1168.
+LINK : fatal error LNK1168: не удается открыть C:\MINE\Programming\DSA\RTest\x64\Debug\RTest.exe для записи
